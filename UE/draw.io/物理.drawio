@@ -1,0 +1,96 @@
+<mxfile host="Electron" modified="2024-01-17T06:35:16.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="UBx5ctTqk_uIk8xQ4rpF" version="22.1.16" type="device">
+  <diagram name="第 1 页" id="hkNXmirhDmviom1y8Dyu">
+    <mxGraphModel dx="2211" dy="1289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HfG21PzeJYxDI-QCLJww-3" value="AVolume" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="570" width="160" height="90" as="geometry">
+            <mxRectangle x="230" y="410" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="HfG21PzeJYxDI-QCLJww-3" vertex="1">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-6" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HfG21PzeJYxDI-QCLJww-3" vertex="1">
+          <mxGeometry y="34" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-7" value="ABrush" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="215" y="250" width="230" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-8" value="// 显示先关的设置&lt;br&gt;- BrushColor: FColor&lt;br&gt;- bColored: uint32&lt;br&gt;- Brush: UModel*&lt;br&gt;- BrushComponent: UBrushComponent*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HfG21PzeJYxDI-QCLJww-7" vertex="1">
+          <mxGeometry y="26" width="230" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="HfG21PzeJYxDI-QCLJww-7" vertex="1">
+          <mxGeometry y="150" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-10" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HfG21PzeJYxDI-QCLJww-7" vertex="1">
+          <mxGeometry y="158" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-12" value="AActor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="70" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-13" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HfG21PzeJYxDI-QCLJww-12" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="HfG21PzeJYxDI-QCLJww-12" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-15" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HfG21PzeJYxDI-QCLJww-12" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=1.031;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" parent="1" source="HfG21PzeJYxDI-QCLJww-7" target="HfG21PzeJYxDI-QCLJww-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.483;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HfG21PzeJYxDI-QCLJww-3" target="HfG21PzeJYxDI-QCLJww-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-19" value="UModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="300" width="160" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-20" value="- Polys: UPolys*&lt;br&gt;- Nodes: FBspNode&lt;br&gt;- Verts: TArray&amp;lt;FVert&amp;gt;&lt;br&gt;- Vectors: TArray&amp;lt;FVector&amp;gt;&lt;br&gt;- Points: TArray&amp;lt;FVector&amp;gt;&lt;br&gt;- Surfs: TArray&amp;lt;FBspSurf&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HfG21PzeJYxDI-QCLJww-19" vertex="1">
+          <mxGeometry y="26" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="HfG21PzeJYxDI-QCLJww-19" vertex="1">
+          <mxGeometry y="140" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-22" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HfG21PzeJYxDI-QCLJww-19" vertex="1">
+          <mxGeometry y="148" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamond;endFill=0;" parent="1" source="HfG21PzeJYxDI-QCLJww-20" target="HfG21PzeJYxDI-QCLJww-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-24" value="UPolys" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="300" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-25" value="- Element: TArray&amp;lt;FPoly&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HfG21PzeJYxDI-QCLJww-24" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="HfG21PzeJYxDI-QCLJww-24" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-27" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HfG21PzeJYxDI-QCLJww-24" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HfG21PzeJYxDI-QCLJww-25" target="HfG21PzeJYxDI-QCLJww-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-29" value="FPoly" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="81" width="1120" height="524" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-30" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;FVector          &lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;Base&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;              &lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// Base point of polygon.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;FVector          &lt;/span&gt;&lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;Normal&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;                &lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// Normal of polygon.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;FVector          &lt;/span&gt;&lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;TextureU&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;           &lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// Texture U vector.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;FVector          &lt;/span&gt;&lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;TextureV&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;           &lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// Texture V vector.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;VerticesArrayType   &lt;/span&gt;&lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;Vertices&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;uint32           &lt;/span&gt;&lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;PolyFlags&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;          &lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// FPoly &amp;amp; Bsp poly bit flags (PF_).&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;ABrush&lt;/span&gt;*          &lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;Actor&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;             &lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// Brush where this originated, or NULL.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;UMaterialInterface&lt;/span&gt;* &lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;Material&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;           &lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// Material.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;FName            &lt;/span&gt;&lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;RulesetVariation&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;     &lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// Name of variation within a ProcBuilding Ruleset for this face&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;FName            &lt;/span&gt;&lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;ItemName&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;           &lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// Item name.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;int32               &lt;/span&gt;&lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;iLink&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;             &lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// iBspSurf, or brush fpoly index of first identical polygon, or MAX_uint16.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;int32               &lt;/span&gt;&lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;iLinkSurf&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;int32               &lt;/span&gt;&lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;iBrushPoly&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;             &lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// Index of editor solid&#39;s polygon this originated from.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;uint32           &lt;/span&gt;&lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;SmoothingMask&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;       &lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// A mask used to determine which smoothing groups this polygon is in.  SmoothingMask &amp;amp; (1 &amp;lt;&amp;lt; GroupNumber)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;float            &lt;/span&gt;&lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;LightMapScale&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;       &lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// The number of units/shadowmap texel on this surface.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// This MUST be the format of FLightmassPrimitiveSettings&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;// The Lightmass settings for surfaces generated from this poly&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#89b1dc;&quot;&gt;FLightmassPrimitiveSettings       &lt;/span&gt;&lt;span style=&quot;color:#d0e77f;font-weight:bold;&quot;&gt;LightmassSettings&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HfG21PzeJYxDI-QCLJww-29" vertex="1">
+          <mxGeometry y="26" width="1120" height="464" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="HfG21PzeJYxDI-QCLJww-29" vertex="1">
+          <mxGeometry y="490" width="1120" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-32" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HfG21PzeJYxDI-QCLJww-29" vertex="1">
+          <mxGeometry y="498" width="1120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HfG21PzeJYxDI-QCLJww-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;" parent="1" source="HfG21PzeJYxDI-QCLJww-30" target="HfG21PzeJYxDI-QCLJww-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
