@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="第 1 页" id="xXjKQtrnem0Oup2FI2AY">
+    <mxGraphModel dx="2261" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sa269H7SaWVkk1uCxyty-2" value="TickComponent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="240" width="2440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-3" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;ShouldSkipUpdate&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;是否需要更新&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="300" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-6" value="不是Movable的不更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-7" value="仅渲染更新时如果不是渲染相关的组件不更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-9" value="&lt;div style=&quot;background-color:#262626;color:#d0d0d0&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;CheckStillInWorld&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;边界检查&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-10" value="是否跌落到WorldSettings.KillZ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-11" value="是否在世界Box范围之外" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-12" value="&lt;div style=&quot;background-color: rgb(38, 38, 38);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#39cc9b&quot;&gt;如果是物理模拟&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-13" value="&lt;div style=&quot;background-color: rgb(38, 38, 38);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#39cc9b&quot;&gt;如果是自主端&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#39cc9b&quot;&gt;相机标记为更新&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-14" value="&lt;div style=&quot;background-color: rgb(38, 38, 38);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;ClearAccumulatedForces&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;清理这一帧受到的外部影响&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="360" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-15" value="&lt;div style=&quot;background-color: rgb(38, 38, 38);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#39cc9b&quot;&gt;return&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-16" value="&lt;div style=&quot;background-color: rgb(38, 38, 38);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#39cc9b&quot;&gt;如果是自主端或权威端&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="300" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-17" value="&lt;div style=&quot;background-color: rgb(38, 38, 38);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#39cc9b&quot;&gt;如果是模拟端&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="300" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-18" value="&lt;div style=&quot;background-color: rgb(38, 38, 38);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#39cc9b&quot;&gt;如果是自主端并且要纠正移动&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="360" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sa269H7SaWVkk1uCxyty-19" value="&lt;div style=&quot;background-color: rgb(38, 38, 38);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;color: rgb(208, 208, 208);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#39cc9b;&quot;&gt;ClientUpdatePositionAfterServerUpdate&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="420" width="280" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
