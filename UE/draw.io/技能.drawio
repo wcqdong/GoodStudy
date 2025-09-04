@@ -1,9 +1,15 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
   <diagram name="第 1 页" id="PrhXpalI99mnSL0RMzUF">
-    <mxGraphModel dx="2514" dy="3331" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3711" dy="3587" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-94" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="5545" y="1359" width="897" height="632" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-93" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="4628" y="1359" width="916" height="632" as="geometry" />
+        </mxCell>
         <mxCell id="jRM6XPv-YSylesxCgWWN-1" value="技能id" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="154" y="318" width="120" height="60" as="geometry" />
         </mxCell>
@@ -440,6 +446,243 @@
             <mxPoint x="2936" y="-309" as="sourcePoint" />
             <mxPoint x="3006" y="-394" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-2" target="UlnXxGRV-r5DWmq6DCOY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-2" value="CanActivate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3516" y="907" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-3" value="冷却等条件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3518" y="968" width="68" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-5" target="UlnXxGRV-r5DWmq6DCOY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-5" value="&amp;nbsp;选参考点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3707" y="907" width="201" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-6" value="1. 选当前锁敌&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 选面朝方向扇形范围内最近敌人&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. 选最近队友&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;4. 选自己&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5.。。。&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3788" y="969" width="120" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-7" value="1. 选人" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3698" y="997" width="90" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-8" value="释放技能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3985" y="906" width="1024" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-12" target="UlnXxGRV-r5DWmq6DCOY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-12" target="UlnXxGRV-r5DWmq6DCOY-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-12" target="UlnXxGRV-r5DWmq6DCOY-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-12" value="根据条件选择Montage&lt;br&gt;1. 在空中&lt;br&gt;2. 在硬直中&lt;br&gt;3. 蓄力N阶段&lt;br&gt;4. 。。。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="4062" y="967" width="155" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-14" target="UlnXxGRV-r5DWmq6DCOY-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-14" value="播放StoryLine" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="4319" y="1138" width="502" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-28" value="结束技能" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="4933" y="967" width="76" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-29" value="开始释放" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3987" y="967" width="74" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-34" target="UlnXxGRV-r5DWmq6DCOY-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-34" value="播放StoryLine" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="4316" y="990" width="502" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-36" target="UlnXxGRV-r5DWmq6DCOY-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-36" value="播放StoryLine" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="4317" y="1059" width="502" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-37" value="蓝量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3589" y="969" width="68" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-38" value="&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 面朝方向前方N米&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3790" y="1078" width="120" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-39" value="2. 选点" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3699" y="1114" width="90" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-41" value="打击点" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="4406" y="1392" width="56" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-42" value="打击点" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="4515" y="1332" width="56" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-43" value="打击点" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="4624" y="1271" width="1822" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4430" y="1178" as="sourcePoint" />
+            <mxPoint x="4430" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4542" y="1177" as="sourcePoint" />
+            <mxPoint x="4542" y="1324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4652" y="1179" as="sourcePoint" />
+            <mxPoint x="4652" y="1264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-47" value="脱手" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="4632" y="1391" width="56" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-48" target="UlnXxGRV-r5DWmq6DCOY-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4983" y="1488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-48" target="UlnXxGRV-r5DWmq6DCOY-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-48" value="非脱手" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="4630" y="1556" width="56" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-49" target="UlnXxGRV-r5DWmq6DCOY-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-49" value="1.法术场&lt;div&gt;2.子弹&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="4688" y="1391" width="91" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-50" target="UlnXxGRV-r5DWmq6DCOY-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-50" value="碰撞" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4823" y="1394" width="56" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-51" target="UlnXxGRV-r5DWmq6DCOY-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-51" value="选敌" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="4985" y="1413" width="153" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-54" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-52" target="UlnXxGRV-r5DWmq6DCOY-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-52" value="冲锋" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="4687" y="1470" width="91" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-57" target="UlnXxGRV-r5DWmq6DCOY-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-57" value="过滤敌人" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="5239" y="1412" width="56" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-58" value="1. 选我&lt;div&gt;2. 选目标&lt;/div&gt;&lt;div&gt;3. 选以我为中心的圆&lt;/div&gt;&lt;div&gt;4. 选以目标为中心的原&lt;/div&gt;&lt;div&gt;5. 选我到目标的矩形范围&lt;/div&gt;&lt;div&gt;6. 选目标位置为中心的圆&lt;/div&gt;&lt;div&gt;7. 选我面朝前方扇形范围&lt;/div&gt;&lt;div&gt;8. 选我面朝方向矩形范围&lt;/div&gt;&lt;div&gt;9. 选我到目标扇形范围&lt;/div&gt;&lt;div&gt;10……&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4983" y="1468" width="153" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-60" value="1. 阵营&lt;div&gt;2. 仇恨&lt;/div&gt;&lt;div&gt;3. 和平、杀戮等模式&lt;/div&gt;&lt;div&gt;4. 是否红名&lt;/div&gt;&lt;div&gt;5. 场景玩法&lt;/div&gt;&lt;div&gt;6. 队伍&lt;/div&gt;&lt;div&gt;7. 帮派&lt;/div&gt;&lt;div&gt;8. ……&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="5233" y="1466" width="122" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-61" target="UlnXxGRV-r5DWmq6DCOY-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-61" target="UlnXxGRV-r5DWmq6DCOY-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-61" target="UlnXxGRV-r5DWmq6DCOY-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-61" value="敌人类型的不同释放不同技能效果" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="5394" y="1405" width="84" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-62" value="1. 战斗单元&lt;div&gt;2. 树&lt;/div&gt;&lt;div&gt;3. 石头&lt;/div&gt;&lt;div&gt;4. 破坏物体&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="5391" y="1472" width="115" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-64" value="SkillEffect" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="5610" y="1369" width="84" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-65" target="UlnXxGRV-r5DWmq6DCOY-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-65" value="选敌" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="4987" y="1743" width="153" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5371.666666666667" y="1768.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-66" value="过滤敌人" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="5235" y="1742" width="56" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-69" value="…………" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="5376" y="1735" width="84" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-71" value="SkillEffect" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="5608" y="1444" width="84" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-72" value="SkillEffect" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="5608" y="1525" width="84" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.972;exitY=0.343;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-75" target="UlnXxGRV-r5DWmq6DCOY-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-75" value="1. 伤害&lt;div&gt;2. buff&lt;/div&gt;&lt;div&gt;3. 击退&lt;/div&gt;&lt;div&gt;4. 净化&lt;/div&gt;&lt;div&gt;5. 复活&lt;/div&gt;&lt;div&gt;6. 释放另一个技能&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5610" y="1592" width="103" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-76" target="UlnXxGRV-r5DWmq6DCOY-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-76" value="buff" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="5753" y="1613" width="49" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-78" target="UlnXxGRV-r5DWmq6DCOY-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-78" value="&lt;div&gt;1. 属性&lt;/div&gt;&lt;div&gt;2. 状态&lt;/div&gt;&lt;div&gt;3. 周期效果&lt;/div&gt;&lt;div&gt;4. 添加被动技能&lt;/div&gt;&lt;div&gt;5. 添加另一个buff&lt;/div&gt;&lt;div&gt;6. 释放另一个技能&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5851" y="1652" width="113" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-79" value="BuffEffect" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="5857" y="1614" width="72" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-89" target="UlnXxGRV-r5DWmq6DCOY-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6310" y="1737" />
+              <mxPoint x="6431" y="1736" />
+              <mxPoint x="6431" y="1905" />
+              <mxPoint x="4967" y="1905" />
+              <mxPoint x="4967" y="1784" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UlnXxGRV-r5DWmq6DCOY-81" target="UlnXxGRV-r5DWmq6DCOY-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-81" value="&lt;div&gt;周期效果&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="6034" y="1697" width="96" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-89" value="&lt;div&gt;timer组件&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="6204" y="1704" width="96" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-95" value="怎么选目标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="4626" y="1318" width="921" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-96" value="怎么打目标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="5547" y="1318" width="903" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UlnXxGRV-r5DWmq6DCOY-97" value="1. 选我&lt;div&gt;2. 选目标&lt;/div&gt;&lt;div&gt;3. 选以我为中心的圆&lt;/div&gt;&lt;div&gt;4. 选以目标为中心的圆&lt;/div&gt;&lt;div&gt;5. 选我到目标的矩形范围&lt;/div&gt;&lt;div&gt;6. 选目标位置为中心的圆&lt;/div&gt;&lt;div&gt;7. 选我面朝前方扇形范围&lt;/div&gt;&lt;div&gt;8. 选我面朝方向矩形范围&lt;/div&gt;&lt;div&gt;9. 选我到目标扇形范围&lt;/div&gt;&lt;div&gt;10……&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4984" y="1799" width="153" height="176" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
