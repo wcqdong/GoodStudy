@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36">
+  <diagram name="第 1 页" id="4DXosSl5vTkU5rFF_-mA">
+    <mxGraphModel dx="1664" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="service" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="service" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="port" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="node" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="service" vertex="1">
+          <mxGeometry height="60" width="120" x="557" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="service" vertex="1">
+          <mxGeometry height="60" width="120" x="707" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="port" vertex="1">
+          <mxGeometry height="60" width="120" x="647" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="service" vertex="1">
+          <mxGeometry height="60" width="120" x="990" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="service" vertex="1">
+          <mxGeometry height="60" width="120" x="1140" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="port" vertex="1">
+          <mxGeometry height="60" width="120" x="1080" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="node" vertex="1">
+          <mxGeometry height="60" width="120" x="1320" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="service" vertex="1">
+          <mxGeometry height="60" width="120" x="1427" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="service" vertex="1">
+          <mxGeometry height="60" width="120" x="1577" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="port" vertex="1">
+          <mxGeometry height="60" width="120" x="1517" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="E1fMjwrjaNQRYmgsnjtn-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
